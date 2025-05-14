@@ -22,3 +22,4 @@ nameInput.classList.remove('error', 'success');
         alert("Success! Name is correct.");
         nameInput.classList.add('success');
     }
+ });
