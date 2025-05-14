@@ -1,5 +1,8 @@
-function validateForm(event) {
-    event.preventDefault();
-}
+const form = document.getElementById('nameForm');
+const nameInput = document.getElementById('name');
+const correctName = "Laurie Jean"; 
 
-let name = document.getElementById("name").value.trim();
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    const enteredName = nameInput.value.trim();
